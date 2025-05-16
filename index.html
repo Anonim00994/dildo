@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DildoShop - Магазин качественных дилдо</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Dildo<span>Shop</span></h1>
+                <p>Лучшие секс-игрушки для взрослых</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Премиум дилдо для вашего удовольствия</h2>
+            <p>Безопасные материалы, дискретная доставка, гарантия качества</p>
+            <a href="#" class="btn">В каталог</a>
+        </section>
+
+        <section class="products">
+            <h2>Популярные товары</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Товары будут добавлены через JavaScript -->
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Безопасные материалы</h3>
+                <p>Все изделия из медицинского силикона и ABS-пластика</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-truck"></i>
+                <h3>Дискретная доставка</h3>
+                <p>Упаковка без указания содержимого</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-lock"></i>
+                <h3>Безопасная оплата</h3>
+                <p>Разные способы оплаты, защита данных</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>DildoShop</h3>
+                <p>© 2023 Все права защищены</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: info@dildoshop.com</p>
+                <p>Телефон: 8-800-XXX-XXXX</p>
+            </div>
+            <div class="footer-section">
+                <h3>Информация</h3>
+                <ul>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Условия использования</a></li>
+                    <li><a href="#">Возврат и обмен</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="product-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-product-view" id="modal-product-view">
+                <!-- Содержимое модального окна будет добавлено через JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
